@@ -3817,6 +3817,13 @@ input, select, textarea {
 	color: white !important;
 }
 
-img.guby-logo-sm {
+nav img.guby-logo-sm {
 	height: 2rem;
+  display: none;
 }
+
+nav.alt img.guby-logo-sm {
+	height: 2rem;
+  display: block;
+}
+
