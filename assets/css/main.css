@@ -3690,7 +3690,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 0em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 	}
@@ -3703,7 +3703,7 @@ input, select, textarea {
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
-			font-size: 0.8em;
+			font-size: 1em;
 			text-align: center;
 		}
 
@@ -3825,5 +3825,12 @@ nav img.guby-logo-sm {
 nav.alt img.guby-logo-sm {
 	height: 2rem;
   display: block;
+}
+  
+#footer > .social {
+    width: 100%;
+    margin: 2.5em 0 2em 0;
+    font-size: 0.8em;
+    text-align: center;
 }
 
